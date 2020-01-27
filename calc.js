@@ -21,7 +21,11 @@ function display()
 	if(op=='*')
 		ans=no1*no2;
 	if(op=="/")
+	{
+		if(no2==0)
+			alert("Cant divide by zero ");
 		ans=no1/no2;
+	}
 	if(op=='-')
 		ans=no1-no2;
 	var node = document.createTextNode(ans);
