@@ -1,0 +1,45 @@
+body
+{
+	background:url(https://images.app.goo.gl/YRzvhEjYaChSwzjR8);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+h1
+{
+	text-align:center;
+}
+button
+{
+	padding: 15px 25px;
+  font-size: 24px;
+  text-align: right;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0e0c78;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin:25px 50px 75px 50px;
+}
+#first
+{
+height: 50px;
+width:250px;
+margin:25px 50px 75px 50px;
+
+}
+#second
+{
+	height: 50px;
+width:250px;
+margin:25px 50px 75px 50px;
+
+}
+select
+{
+  height:50px;
+  width:50px;
+  margin:25px 50px 75px 50px;
+}
+}
